@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ICT602MobileTechnologyAssignment" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/md_theme_light_primary</item>
+        <item name="colorPrimaryVariant">@color/md_theme_light_primaryContainer</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
+        <item name="colorSecondary">@color/md_theme_light_secondary</item>
+        <item name="colorSecondaryVariant">@color/md_theme_light_secondaryContainer</item>
+        <item name="colorOnSecondary">@color/md_theme_light_onSecondary</item>
+        <item name="android:statusBarColor">@color/md_theme_light_primary</item> <item name="android:windowBackground">@color/md_theme_light_background</item>
+        <item name="colorSurface">@color/md_theme_light_surface</item>
+        <item name="colorOnSurface">@color/md_theme_light_onSurface</item>
+        <item name="colorError">@color/md_theme_light_error</item>
+        <item name="colorOnError">@color/md_theme_light_onError</item>
+
+        <item name="seekBarStyle">@style/CustomSeekBarStyle.Light</item>
+    </style>
+
+    <style name="Theme.App.Starting" parent="Theme.ICT602MobileTechnologyAssignment" />
+
+    <style name="CustomSeekBarStyle.Light" parent="Widget.AppCompat.SeekBar">
+        <item name="android:thumbTint">?attr/colorSecondary</item> <item name="android:progressTint">?attr/colorSecondary</item> <item name="android:progressBackgroundTint">#40000000</item> </style>
+
+    <style name="Theme.ICT602MobileTechnologyAssignment.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>

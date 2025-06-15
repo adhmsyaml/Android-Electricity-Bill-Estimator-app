@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Electricity Bill Estimator</string>
+
+    <string name="label_kwh_used">Electricity Units Used (kWh):</string>
+    <string name="hint_enter_kwh">e.g., 350</string>
+    <string name="label_month">Month:</string>
+    <string name="label_rebate_percentage">Rebate Percentage:</string>
+    <string name="button_calculate">Calculate Bill</string>
+    <string name="button_view_history">View Bill History</string>
+    <string name="button_about">About App</string>
+    <string name="button_clear_kwh">Clear</string>
+
+    <string name="label_total_charges">Total Charges: %1$s</string>
+    <string name="label_final_cost">Final Cost: %1$s</string>
+    <string name="label_breakdown_charges">Charge Breakdown:</string>
+    <string name="breakdown_block_format">  - %1$s kWh @ %2$.2f sen/kWh: %3$s</string>
+
+    <string-array name="months_array">
+        <item>Select Month</item>
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string name="error_empty_kwh">Please enter the number of electricity units used.</string>
+    <string name="error_invalid_kwh">Please enter a valid positive number for kWh.</string>
+    <string name="error_select_month">Please select a month from the dropdown.</string>
+    <string name="toast_bill_saved">Bill saved successfully!</string>
+    <string name="toast_no_history">No bill history found.</string>
+    <string name="toast_all_history_deleted">All bill history deleted.</string>
+    <string name="toast_no_records_to_delete">No records to delete.</string>
+    <string name="toast_nothing_to_calculate">Please enter kWh and select a month to calculate.</string>
+
+
+    <string name="history_title">Bill History</string>
+    <string name="empty_history_message">No electricity bills saved yet. Calculate and save one on the main screen!</string>
+    <string name="button_delete_all_history">Delete All History</string>
+    <string name="history_list_item_format">Month: %1$s\nkWh: %2$s\nFinal Cost: %3$s</string>
+
+    <string name="detail_title">Bill Details</string>
+    <string name="detail_month">Month:</string>
+    <string name="detail_kwh">kWh Used:</string>
+    <string name="detail_rebate">Rebate Percentage:</string>
+    <string name="detail_total_charges">Total Charges:</string>
+    <string name="detail_final_cost">Final Cost:</string>
+
+    <string name="about_title">About This App</string>
+    <string name="about_content_prefix">
+        <p>This is an Electricity Bill Estimator application developed for ICT602 - Mobile Technology and Development, Universiti Teknologi MARA (UiTM).</p>
+        <p><b>Developer:</b></p>
+    </string>
+    <string name="about_developer_name_id">Adham Syamil Bin Saiful Anha (2024568287)</string>
+    <string name="about_copyright">© 2024 Adham Syamil. All rights reserved.</string>
+    <string name="about_github_label">Project GitHub Repository:</string>
+    <string name="about_github_url">https://github.com/adhmsyaml</string> <string name="sort_by_month_asc">Sort by Month (Asc)</string>
+    <string name="sort_by_month_desc">Sort by Month (Desc)</string>
+    <string name="sort_by_cost_asc">Sort by Cost (Asc)</string>
+    <string name="sort_by_cost_desc">Sort by Cost (Desc)</string>
+
+</resources>
