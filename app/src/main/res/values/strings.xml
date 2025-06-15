@@ -62,7 +62,7 @@
     <string name="about_developer_name_id">Adham Syamil Bin Saiful Anha (2024568287)</string>
     <string name="about_copyright">© 2024 Adham Syamil. All rights reserved.</string>
     <string name="about_github_label">Project GitHub Repository:</string>
-    <string name="about_github_url">https://github.com/adhmsyaml</string> <string name="sort_by_month_asc">Sort by Month (Asc)</string>
+    <string name="about_github_url">https://github.com/adhmsyaml/Android-Electricity-Bill-Estimator-app</string> <string name="sort_by_month_asc">Sort by Month (Asc)</string>
     <string name="sort_by_month_desc">Sort by Month (Desc)</string>
     <string name="sort_by_cost_asc">Sort by Cost (Asc)</string>
     <string name="sort_by_cost_desc">Sort by Cost (Desc)</string>
